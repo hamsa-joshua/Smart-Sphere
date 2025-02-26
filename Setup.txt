@@ -1,0 +1,31 @@
+🛠 Tech Stack
+
+Hardware: ESP32, DHT22, Relays, Push Buttons
+Software: Arduino IDE, Blynk, Wokwi Simulator
+
+Libraries:
+BlynkESP32_BT_WF
+DHT sensor library for ESP
+
+📜 Setup Instructions
+
+1️⃣ Hardware Connections
+Component	ESP32 Pin
+DHT22 Sensor	GPIO 15
+Device 1	GPIO 23
+Device 2	GPIO 22
+Device 3	GPIO 21
+Device 4	GPIO 19
+Device 5	GPIO 18
+Push Button	GPIO 2
+
+2️⃣ Software Installation
+Install Arduino IDE.
+Add ESP32 board support (Installation Guide).
+Install required libraries from libraries.txt.
+Upload smart_sphere.ino to ESP32.
+
+3️⃣ Blynk Setup
+Create a Blynk account on Blynk Cloud.
+Set up a new template for Smart-Sphere.
+Generate an Auth Token and update the code.
