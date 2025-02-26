@@ -37,3 +37,12 @@
 BLYNK_WRITE(V1) {  
   digitalWrite(dev1, param.asInt());  
 }
+
+## 💻 Sensor Data Handling 
+### **Device Control via Blynk**  
+```cpp
+void send_dht_val() {  
+  TempAndHumidity data = dhtSensor.getTempAndHumidity();  
+  Blynk.virtualWrite(V8, data.temperature);  
+}
+
